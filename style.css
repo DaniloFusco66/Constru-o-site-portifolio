@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto";
+    background-color: black;
+}
+
+h1{
+    font-family: "Poppins";
+    
+}
+
+@media(min-width: 1400px){
+
+.container{
+    max-width: 1320px;
+    background-color: red;
+}
+}
+
+@media(min-width:1399px){
+    .container{
+        max-width: 1140px;
+        background-color: blue;
+    }
+}
+
+@media(min-width: 992px){
+    .container{
+        max-width: 960px;
+        background-color: green;
+    }
+}
+
+@media(min-width: 768px){
+    .container{
+        max-width: 720px;
+        background-color:white;
+        
+    }
+}
+
+@media(max-width: 576px){
+    .container{
+        max-width: 570px;
+        background-color:blueviolet ;
+    }
+}
+
+
+
+
+.cabecalho{
+    background-color: white;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.marca{
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.menu ul{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 448;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+@media(max-width: 800px){
+    .cabecalho{
+        padding:50px;
+    }
+
+
+.menu ul{
+    width: 270px;
+}
+}
+
+@media(max-width:576px){
+    .cabecalho{
+        padding: 10px;
+        display: block;
+        height: 100%;
+        text-align: center;
+    }
+    .menu ul{
+        width:100%;
+        display: block;
+    }
+    .marca{
+        font-size: 74px;
+    }
+
+    .menu ul a{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: block;
+
+    }
+}
+
+
+
+.conteudo-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 122px;
+    padding-right: 122px;
+
+}
+
+.coluna-texto,
+.coluna-foto{
+    width: 50%;
+}
+
+.texto-titulo{
+    font-size: 64px;
+    font-weight: 900;
+    font-family: "Roboto";
+    color: white;
+
+
+}
+
+.texto-corpo{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Roboto";
+    line-height: 41px;
+    color: white;
+    margin-top: 29px;
+    margin-bottom:29px;
+}
+
+.botao-principal{
+    display: inline-block;
+    text-align: center;
+    padding: 27 93px;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 24;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.coluna-foto{
+    text-align: right;
+}
+
+.foto-perfil{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
